@@ -85,3 +85,15 @@ print(body)
 score = post_json(baseURL + "/game/v2/submit/", body)
 print("Your score is: " + score)
 
+def maxScorePoints(activityList):
+
+    maxScore = 0;
+
+    for activity in activityList:
+       if maxScore < activity.points:
+           maxScore = activity.points
+    
+    return maxScore
+    
+    
+    
