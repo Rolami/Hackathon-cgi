@@ -1,0 +1,11 @@
+energyCost / maxEnergy 
+
+
+hur sortera bäst multiplier och närmast 650 energyCost
+
+energyCost % maxEnergy = 
+
+pointMultiplyer % ~0 
+if not 0 
+    action energyCost % rest modulus
+    
