@@ -1,0 +1,90 @@
+{
+  "gameVersion": 1,
+  "gameName": "Creatures They are back",
+  "gameDescription": "The Creatures are invading, and there are more of them! And you have limited resources to capture them. Do your best to capture as many of the Creatures that you can! (Note: there is only one (1) of each Creatures)",
+  "maxEnergy": 500,
+  "achievementsActivated": true,
+  "actions": [
+    {
+      "action": "Bare hand",
+      "energyCost": 25,
+      "pointMultiplyer": 0.3
+    },
+    {
+      "action": "Snare",
+      "energyCost": 70,
+      "pointMultiplyer": 0.5
+    },
+    {
+      "action": "Cage trap",
+      "energyCost": 120,
+      "pointMultiplyer": 1
+    }
+  ],
+  "activitys": [
+    {
+      "activity": "Scorpion",
+      "points": 50
+    },
+    {
+      "activity": "Crab",
+      "points": 90
+    },
+    {
+      "activity": "Sarlacc",
+      "points": 170
+    },
+    {
+      "activity": "Octopus",
+      "points": 120
+    },
+    {
+      "activity": "Squid",
+      "points": 100
+    },
+    {
+      "activity": "Beetle",
+      "points": 25
+    },
+    {
+      "activity": "Ewok",
+      "points": 90
+    },
+    {
+      "activity": "Shapeshifting Cuttlefish",
+      "points": 150
+    },
+    {
+      "activity": "Mantis",
+      "points": 55
+    },
+    {
+      "activity": "Slime",
+      "points": 10
+    },
+    {
+      "activity": "Space whale",
+      "points": 230
+    },
+    {
+      "activity": "Snail",
+      "points": 20
+    },
+    {
+      "activity": "Snake",
+      "points": 85
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "name": "Only use one type of action",
+      "points": 400
+    },
+    {
+      "id": 2,
+      "name": "Do all activitys",
+      "points": 600
+    }
+  ]
+}
