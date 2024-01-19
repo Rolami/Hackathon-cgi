@@ -1,0 +1,97 @@
+
+
+HTTP 200 OK
+Allow: GET, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "gameVersion": 1.0,
+    "gameName": "Creatures",
+    "gameDescription": "The Creatures are invading! 
+Do your best to capture as many of the Creatures that you can! (Note: there is only one (1) of each Creatures)",
+    "maxEnergy": 650,
+    "achievementsActivated": true,
+    "actions": [
+        {
+            "action": "Snare",
+            "energyCost": 50,
+            "pointMultiplyer": 0.5
+        },
+        {
+            "action": "Cage trap",
+            "energyCost": 100,
+            "pointMultiplyer": 1.0
+        },
+        {
+            "action": "Foothold trap",
+            "energyCost": 130,
+            "pointMultiplyer": 1.3
+        },
+        {
+            "action": "Glue trap",
+            "energyCost": 150,
+            "pointMultiplyer": 1.5
+        },
+        {
+            "action": "Trapping pit",
+            "energyCost": 170,
+            "pointMultiplyer": 1.7
+        }
+    ],
+    "activitys": [
+        {
+            "activity": "Scorpion",
+            "points": 70
+        },
+        {
+            "activity": "Crab",
+            "points": 90
+        },
+        {
+            "activity": "Octopus",
+            "points": 100
+        },
+        {
+            "activity": "Squid",
+            "points": 100
+        },
+        {
+            "activity": "Shapeshifting Cuttlefish",
+            "points": 150
+        },
+        {
+            "activity": "Mantis",
+            "points": 55
+        },
+        {
+            "activity": "Slime",
+            "points": 30
+        },
+        {
+            "activity": "Space whale",
+            "points": 200
+        },
+        {
+            "activity": "Snail",
+            "points": 50
+        },
+        {
+            "activity": "Snake",
+            "points": 80
+        }
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "name": "Only use one type of action",
+            "points": 250
+        },
+        {
+            "id": 2,
+            "name": "Do all activitys",
+            "points": 300
+        }
+    ]
+}
+
