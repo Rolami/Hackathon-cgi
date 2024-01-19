@@ -3,8 +3,8 @@
 import requests # Requers you to run "pip install requests"
 import json 
 
-baseURL = 'http://X.X.X.X:XXXX'
-apiKey = 'token'
+baseURL = 'http://16.171.230.96:8080/'
+apiKey = 'a66035b6-96c5-4b24-afd6-2a22e2fd25c6'
 
 def fetch_json(url):
     res = requests.get(url)
